@@ -1,0 +1,6 @@
+.detail{ clear: both; overflow: hidden;}
+.detail-img image{ width:744rpx; border: 1px solid #ddd; margin-bottom: 50rpx;}
+.detail-title{ padding: 20rpx; font-size: 16px; line-height: 28px; border-bottom:1px solid #ddd;  text-align: center; color: #333;}
+.detail-tel,.detail-adress{ padding:20rpx; height: 28px; line-height: 28px; color: #666; border-bottom:1px solid #ddd; }
+.tel{ float: left; margin-right: 5px; height: 28px; width: 28px; background: url(../../images/tel.png) no-repeat center; background-size: 60% 60%;}
+.adress{ float: left; margin-right: 5px; height: 28px; width: 28px; background: url(../../images/address.png) no-repeat center; background-size: 60% 60%;}

@@ -1,0 +1,8 @@
+.list-page{ padding:0 10rpx; }
+.list{clear:both; overflow: hidden; padding:20rpx; border-bottom:1px solid #ccc; margin: 10rpx; }
+.list-scroll{ position: absolute; top:0; left: 0; bottom:0; right: 0; width: 100%; height: 100%;}
+.rightSuccess{ float: right; padding-top:50rpx;}
+.list .img{ float: left; width: 180rpx; height: 180rpx; margin-right:20rpx; }
+.list .title{ font-size: 14px; color: #333; line-height: 64rpx;}
+.list .tel{font-size: 12px; color: #666; line-height: 48rpx;  display: block;}
+.list .address{ font-size: 12px; color: #666; line-height: 48rpx;  display: block;}

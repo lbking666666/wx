@@ -1,0 +1,16 @@
+<view class="detail">
+    <view class="detail-img">
+        <image mode="aspectFill" src="http://www.kailiche.com/{{img}}"></image>
+    </view>
+    <view class="detail-title">
+        {{title}}
+    </view>
+    <view class="detail-tel">
+        <icon class="tel"></icon>
+        <text>{{tel}}</text>
+    </view>
+    <view class="detail-adress">
+        <icon class="adress"></icon>
+        <text>{{adress}}</text>
+    </view>
+</view>

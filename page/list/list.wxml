@@ -1,0 +1,19 @@
+<view class="list-page">
+    <!-- 数组当前项的变量名默认为item，使用wx:for-item可以指定数组当前元素的变量名-->
+    <scroll-view scroll-y="true" class="list-scroll" bindscrolltolower="lower" bindscrolltoupper="upper" scroll-top="{{scrollTop}}" data-page="{{page}}" data-flag="{{flag}}">
+        <view wx:for="{{list}}" class="list" wx:for-item="list">
+            <icon type="success" class="rightSuccess" size="28"></icon>
+            <view data-title="{{list.pj_name}}" data-tel="{{list.lx_phone}}" data-img="{{list.pj_images}}" data-adress="{{list.adress}}"  bindtap="conlink">
+                <image src="http://www.kailiche.com/{{list.pj_images}}" class="img"></image>
+                <view class="list-con">
+                    <view class="title">{{list.pj_name}}</view>
+                    <text class="tel">{{list.lx_phone}}</text>
+                    <text class="address">{{list.adress}}</text>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+</view>
+<loading hidden="{{hidden}}">
+    加载中...
+</loading>

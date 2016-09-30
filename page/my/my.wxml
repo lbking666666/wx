@@ -1,0 +1,13 @@
+<view class="my-page">
+    <image class="my-photo" src="{{thumb}}" mode="aspectFill"></image>
+    <view class="my-info my-con">   
+        <view class="nickname">
+            <image class="set" src="../../images/set.png" bindtap="bindButtonTap"></image>
+            <input type="text" value="{{nickName}}" focus="{{focus}}"  disabled="{{disabled}}"/>
+        </view>
+        <view class="telnumber">{{telNumber}}</view>
+    </view>
+    <view class="button">
+        <button bindtap="bindExit" type="warn">退出</button>
+    </view>
+</view>

@@ -1,0 +1,30 @@
+<view class="index">
+  <view class="slider">
+    <slider bindchange="sliderchange" min="1" max="7" step value="{{zoom}}" show-value />
+  </view>
+  <view class="shop-num" wx:if="{{num}}">
+    <text>共有{{num}}个商家</text>
+  </view>
+  <view class="car-tab">
+    <view class="car-tab-hd">
+      <view wx:for="{{tab}}" wx:for-item="tabHd">
+        <button class="car-tab-li" data-index="{{index}}" bindtap="changeindex">{{tabHd.name}}</button>
+      </view>
+    </view>
+    <!-- 循环嵌套绑定 -->
+    <view class="car-tab-bd" wx:for="{{tab}}" wx:for-item="tabBd" wx:if="{{showindex==index}}">
+        <scroll-view scroll-y="true" class="car-tab-bd-sroll">
+          <!-- 循环绑定 -->
+          <view class="car-tab-con" wx:for="{{tabBd.infos}}" wx:for-item="tabInfos">
+            <image class="car-icon" src="{{tabInfos.thumb}}"></image>
+            <text class="car-nums">{{tabInfos.nums}}</text>
+            <text class="car-name">{{tabInfos.name}}</text>
+          </view>
+        </scroll-view>
+    </view>
+  </view>
+
+</view>
+<loading hidden="{{hidden}}">
+    加载中...
+</loading>

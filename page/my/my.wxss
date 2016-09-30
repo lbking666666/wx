@@ -1,0 +1,8 @@
+.my-page{ padding:50rpx 30rpx; }
+.my-photo{ float: left; width: 200rpx; height: 200rpx; border: 1px solid #ccc;}
+.my-info{ float: left; padding-left: 20rpx; vertical-align: middle;}
+.my-con{ width:465rpx; height: 200rpx;}
+.my-info .nickname{ padding: 12px; line-height: 24px; color: #222;}
+.my-info .nickname .set{ float: right; width: 24px; height: 24px;}
+.telnumber{ color: #999; line-height: 24px;}
+.button{ clear: both; padding:50rpx 20rpx;}

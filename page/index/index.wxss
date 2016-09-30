@@ -1,0 +1,14 @@
+.index{ padding:50rpx 10rpx; }
+.slider{ padding: 10rpx; color:green;}
+.slider slider{ color: #f00}
+.shop-num{ text-align: center; padding: 20rpx 0;}
+.shop-num text{ color: #f00}
+
+.car-tab{ padding:40rpx 0;}
+.car-tab-hd{ float: left; width: 240rpx;  background: #f9f9f9; height:20rem;}
+.car-tab-bd{ float: right; width: 460rpx;}
+.car-tab-bd-sroll{ height: 20rem;}
+.car-tab-con{ border-bottom:1px solid #eee; padding:20rpx 10rpx; height: 60rpx; line-height: 60rpx; }
+.car-icon{ width: 60rpx; height: 60rpx; float: left; margin-right: 10rpx;}
+.car-nums{ float: right; font-size: 0.8rem;}
+.car-name{ font-size: 1rem;}

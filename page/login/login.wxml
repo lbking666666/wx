@@ -1,0 +1,20 @@
+<view class="login">
+    <form bindsubmit="formSubmit">
+        <view class="form-view">
+            <input type="text" name="user" placeholder="用户名"/>
+        </view>
+        <view class="form-view">
+            <input type="password" name="pass" placeholder="密码"/>
+        </view>
+        <view class="form-button">
+            <button formType="submit" type="primary">登陆</button>
+        </view>
+    </form>
+</view>
+<view wx:if="{{toggle}}">
+  {{msg}}
+</view>
+
+<modal class="modal" hidden="{{modalHidden}}" no-cancel bindconfirm="modalChange">
+  <view>请先登陆</view>
+</modal>

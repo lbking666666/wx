@@ -1,0 +1,4 @@
+.login{ padding:20rpx;}
+.form-view{ padding:12rpx 10rpx; border: 1px solid #ddd; border-radius:15rpx; margin: 20rpx 10rpx;}
+.form-view input{ padding:12rpx;}
+.form-button{ margin: 30rpx 10rpx;}
